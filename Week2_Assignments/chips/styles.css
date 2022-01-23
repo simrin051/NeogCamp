@@ -1,0 +1,58 @@
+.container {
+    width:  700px;
+    height: 5rem !important;
+    background-color: black;
+    border-color: black;
+    display: flex;
+    flex-direction: row;
+    z-index: -1;
+    margin-top:2rem ;
+  }
+  
+  button {
+    width: 5rem;
+    height: 2rem;
+    border-radius: 15px;
+    border: none;
+  }
+  
+  i {
+    margin-left: 1rem;
+  }
+  
+  .fruitValue {
+    display: flex;
+    flex-wrap: wrap;
+   
+  }
+
+  span {
+      box-sizing: content-box;
+      display: flex;
+      flex-wrap: nowrap;
+      height: 2rem;
+      border-radius: 20%;
+      padding-left: 4px;
+      padding-right: 4px;
+      padding-top: 4px;
+      background-color: rgb(161, 237, 240);
+      margin-right: 1rem;
+      text-align: center;
+  }
+
+  .nextFruit {
+      color:rgb(161, 237, 240);
+      flex-grow: 1; /** This helped in filling the remaining space for nextFruit so that dropdown can be visible **/
+  }
+
+  #fruits {
+      display:none;
+      
+  }
+
+  .dropdown {
+      z-index: 999;
+      margin-bottom: 6rem;
+      width:  700px;
+      position: relative; /** position and z-index are responsible for the z-index to reflect **/
+  }
