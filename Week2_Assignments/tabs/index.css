@@ -1,0 +1,30 @@
+.tabs {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+    font-family: 'Roboto',sans-serif;
+    background: #f4bbff;
+    width: 400px;
+    height: 100px;
+    
+ 
+}
+
+.tabs input[type="radio"] {
+    display: none;
+}
+
+.tabs input[type="radio"]:checked + label {
+	display: block;
+    color:#c71585;
+}
+
+.tabs label {
+    padding: 10px;
+    margin: auto;
+    background-color:#fff0f5;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+
